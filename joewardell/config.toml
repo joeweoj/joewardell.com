@@ -1,0 +1,63 @@
+# baseURL = "http://joewardell.com/"
+# languageCode = "en-gb"
+# title = "Joe Wardell"
+# # theme = "pulp"
+
+
+baseurl = "https://joewardell.com/"
+title = "Joe Wardell"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+googleAnalytics = "UA-64816954-1"
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
+[params]
+    author = "Joe Wardell"
+    avatar = "avatar.jpg"
+    # avatarDescription = "My avatar description"
+    favicon = "favicon.ico"
+    description = """
+      nihil dicit
+    """
+    publicationYear = "2021"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    term = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:joewardell@gmail.com"
+    weight = 10
+
+[[menu.main]]
+    identifier = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/joewardell/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/joewardell"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/joeweoj"
+    weight = 30

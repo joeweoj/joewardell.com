@@ -22,7 +22,7 @@ googleAnalytics = "UA-64816954-1"
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
     description = """
-      nihil dicit
+      ...
     """
     publicationYear = "2021"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/

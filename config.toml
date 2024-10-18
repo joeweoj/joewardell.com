@@ -39,7 +39,7 @@ googleAnalytics = "UA-64816954-1"
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:joewardell@gmail.com"
+    url = "mailto:me@joewardell.com"
     weight = 10
 
 [[menu.main]]
